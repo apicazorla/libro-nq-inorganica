@@ -1,0 +1,18 @@
+{
+  "name": "Apicazorla",
+  "short_name": "Ap",
+  "description": "Un dulce regalo en un packaging de bella estética cuyo origen se encuentra en  las matemáticas y la biología.",
+  "theme_color": "#663399",
+  "background_color": "#663399",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}

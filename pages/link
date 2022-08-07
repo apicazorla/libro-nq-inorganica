@@ -1,0 +1,30 @@
+import React from 'react'
+import { View,Text, TouchableWithoutFeedback, StyleSheet, Linking } from 'react-native'
+
+export default class Example extends React.Component {
+    open=()=>{
+        let url = 'http://www.apicazorla.com';
+        Linking.openURL(url) 
+    }
+    render() {
+        return (
+            <View style={styles.container}>
+                 <TouchableWithoutFeedback onPress={this.open}>
+                     <View style={styles.viewForText}>
+                                                 <Text> Haga clic aquí para abrir al web </Text>
+                     </View>
+                </TouchableWithoutFeedback>
+            </View>
+
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor:'#E5E5E5'
+    },
+    viewForText:{
+        justifyContent:'center',
+        alignItems:'center'
+    }
+})
