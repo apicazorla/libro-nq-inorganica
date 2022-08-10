@@ -12,7 +12,7 @@ export default function StartPage () {
   return (
     <Page>
       <H1 style={styles.h1}>Nomenclatura de Química Inorgánica</H1>
-      <Text style={styles.text}>Es un producto de {config.appName}</Text>
+      <Text style={styles.text}>Es un libro de la Ed. Madara de {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
         videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/escutoides.mp4'
