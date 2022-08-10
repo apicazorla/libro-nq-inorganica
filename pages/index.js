@@ -11,7 +11,7 @@ import { config } from '../config/config'
 export default function StartPage () {
   return (
     <Page>
-      <H1 style={styles.h1}>NOMENCLATURA DE QUÍMICA INORGÁNICA</H1>
+      <H1 style={styles.h1}>Nomenclatura DE QUÍMICA INORGÁNICA</H1>
       <Text style={styles.text}>Es un producto de {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       <VideoPlayer
