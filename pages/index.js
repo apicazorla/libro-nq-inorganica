@@ -20,7 +20,7 @@ export default function StartPage () {
       <Text style={styles.text}>Más información en</Text>
       <Text style={{color: 'blue'}}
       onPress={() => Linking.openURL('http://nomenclaturaquimica.com/contact')}>
-  Apicazorla
+  nomenclaturaquimica
 </Text>
     </Page>
 
