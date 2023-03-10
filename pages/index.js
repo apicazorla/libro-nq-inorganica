@@ -11,7 +11,7 @@ import { config } from '../config/config'
 export default function StartPage () {
   return (
     <Page>
-      <H1 style={styles.h1}>Nomenclatura de</H1>
+      <H1 style={styles.h1}>NOMENCLATURA de</H1>
       <H1 style={styles.h1}>Química Inorgánica</H1>
       <Text style={styles.text}>Editorial Madara, 2020. {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
