@@ -8,7 +8,7 @@ import VideoPlayer from '../components/VideoPlayer'
 import { config } from '../config/config'
 
 import Video from 'react-native-video';
-...
+
 
 
 export default function StartPage () {
