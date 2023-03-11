@@ -19,7 +19,7 @@ export default function StartPage () {
       <Text style={styles.text}>Editorial Madara, 2020. {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
 	  <VideoPlayer
-        videoUrl='https://www.dropbox.com/s/zmiothjasvsxdfb/VID_20171221_170726.mp4?dl=0'
+        videoUrl='https://www.dropbox.com/s/zmiothjasvsxdfb/VID_20171221_170726.mp4'
       />
 	  
 	  

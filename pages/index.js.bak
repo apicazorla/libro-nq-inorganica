@@ -7,7 +7,7 @@ import { H1 } from '../components/webElements'
 import VideoPlayer from '../components/VideoPlayer'
 import { config } from '../config/config'
 
-import Video from 'react-native-video';
+
 
 
 
@@ -18,9 +18,8 @@ export default function StartPage () {
       <H1 style={styles.h1}>Química Inorgánica</H1>
       <Text style={styles.text}>Editorial Madara, 2020. {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
-   <Video source={{uri: 'https://drive.google.com/file/d/1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert/view?usp=sharing'}} />   
 	  <VideoPlayer
-        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/libro_nomenclatura.mp4'
+        videoUrl='https://www.dropbox.com/s/zmiothjasvsxdfb/VID_20171221_170726.mp4?dl=0'
       />
 	  
 	  
