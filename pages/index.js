@@ -4,8 +4,7 @@ import { StyleSheet,Text, Linking} from 'react-native'
 
 import Page from '../components/page/Page'
 import { H1 } from '../components/webElements'
-//import VideoPlayer from '../components/VideoPlayer'
-import Video from 'react-native-video';
+import VideoPlayer from '../components/VideoPlayer'
 import { config } from '../config/config'
 
 export default function StartPage () {
@@ -16,11 +15,10 @@ export default function StartPage () {
       <Text style={styles.text}>Editorial Madara, 2020. {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
       
-	  //<VideoPlayer
-        //videoUrl='https://drive.google.com/file/d/1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert/view?usp=sharing.mp4'
-      ///>
+	  <VideoPlayer
+        videoUrl='https://fisicayquimica2.s3.eu-west-3.amazonaws.com/libro_nomenclatura.mp4'
+      />
 	  
-      <Video source={{uri: 'https://drive.google.com/file/d/1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert/view?usp=sharing'}} />
 	  
 	  <Text style={styles.text}>Más información en</Text>
       <Text style={{color: 'blue'}}
