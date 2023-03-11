@@ -18,9 +18,10 @@ export default function StartPage () {
       <H1 style={styles.h1}>Química Inorgánica</H1>
       <Text style={styles.text}>Editorial Madara, 2020. {config.appName}</Text>
       <Text style={styles.text}>{config.appTagline}</Text>
-	  <VideoPlayer
-       <source src="https://drive.google.com/uc?export=download&id=1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert" type='video/mp4'  >
-      />
+	 <video wmode= "transparent"  width= "400" height="225" 
+       controls>
+  <source src="https://drive.google.com/uc?export=download&id=1hyYRm-9Tl43HeKuBQJPRPYfqe5P-oert" type='video/mp4'  >
+</video>
 	  
 	  
 	  <Text style={styles.text}>Más información en</Text>
